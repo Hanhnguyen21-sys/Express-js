@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "a simple express to learn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "hello"
+  ],
+  "author": "hnguyen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
